@@ -1,5 +1,9 @@
 def heda_hahn
-  puts "Heda Hahn!"
+
+  ARGV.each do |arg|
+     puts "Welcome to Heda Hahn Designs, #{arg}!"
+   end
+
 end
 
 heda_hahn
